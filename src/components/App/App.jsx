@@ -6,14 +6,9 @@ import Notification from 'components/Notification/Notification';
 import css from './App.module.css';
 // import { useState } from 'react';
 import { useReducer } from 'react';
+import handleReducer from 'components/services/handleReducer';
 
 // ------ Option #1: using useReducer ------
-
-const handleReducer = (state, action) => {
-  const { type, payload } = action;
-
-  return { ...state, [type]: state[type] + payload };
-};
 
 const initialState = {
   good: 0,
