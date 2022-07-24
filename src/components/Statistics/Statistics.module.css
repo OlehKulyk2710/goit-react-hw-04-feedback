@@ -1,0 +1,22 @@
+.statistics__list {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.statistics__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.sum__list {
+  width: 180px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px dotted gray;
+  border-radius: 10px;
+}
+
+.sum__totalFb {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
