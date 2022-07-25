@@ -6,7 +6,7 @@ import Notification from 'components/Notification/Notification';
 import css from './App.module.css';
 // import { useState } from 'react';
 import { useReducer } from 'react';
-import handleReducer from 'components/services/handleReducer';
+import handleReducer from 'services/handleReducer';
 
 // ------ Option #1: using useReducer ------
 
